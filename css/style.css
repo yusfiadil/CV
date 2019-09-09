@@ -1,0 +1,111 @@
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 450px) {
+  .light_blue, .green {
+      width: 50%
+  }
+}
+
+/*untuk layar device berukuran sedang*/
+@media screen and (min-width: 550px) {
+  .red {
+      width: 33%;
+  }
+
+  .orange {
+      width: 67%;
+  }
+}
+
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+  .container {
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:#000;
+    background : url("../img/bckgr.jpeg");
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 250px auto;
+    
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  
+   
+  }
+  .img-profil{
+      width: 150px;
+      justify-self: center;
+      border-radius: 6px;
+  
+  }
+  h1{
+  font-size: 36px;
+  text-align: center;
+
+}
+.p {
+    
+    text-align: justify;
+    padding:5pt;
+}
+.icon{
+    width: 15%;
+    float: left;
+    margin-right: 5%;
+}
+
+.pb-abu2{color:#000!important;background-color:#9e9e9e!important}
+.pb-round-xlarge{border-radius:16px}
+.pb-container{padding:0.01em 6px;}
+.pb-biru{color:#fff!important;background-color:#2196F3!important}
+
+fieldset {
+ 
+  background: white;
+  border: 1  solid #DDD;
+  display: inline-block;
+  font-size:14px;
+  padding: 1em 1em;
+  margin: 4;
+
+}
+legend {
+  background:#2196F3!important;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 0.5em 1em;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
